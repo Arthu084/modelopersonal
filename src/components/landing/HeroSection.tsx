@@ -9,7 +9,9 @@ const HeroSection = () => {
             Ajudando mulheres sem tempo a conquistarem um corpo elegante e definido com o Método S.L.I.M.
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-            💥 Resultados reais. Treinos rápidos. 🔗 Comece sua consultoria agora 👇
+            💥 Resultados reais. Treinos rápidos.
+            <br />
+            🔗 Comece sua consultoria agora
           </p>
         </div>
       </div>
