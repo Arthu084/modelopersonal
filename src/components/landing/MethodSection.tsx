@@ -12,7 +12,7 @@ interface MethodCardProps {
 
 const MethodCard = ({ icon: Icon, title, description, delay }: MethodCardProps) => (
   <div className="animate-on-scroll" style={{ animationDelay: delay }}>
-    <Card className="bg-card border-border h-full text-center hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transition-all duration-300">
+    <Card className="bg-card border-border h-full text-center hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transition-all duration-300 rounded-2xl">
       <CardHeader className="items-center p-4">
         <div className="bg-primary/10 p-3 rounded-full mb-2">
           <Icon className="w-7 h-7 text-primary" />
@@ -38,7 +38,7 @@ const MethodSection = () => {
       <div className="container mx-auto px-4 md:px-6 text-center space-y-8">
         <div className="space-y-4 animate-on-scroll">
           <h2 className="text-3xl md:text-4xl font-headline font-bold">
-            Entenda o que faz o Método S.L.I.M funcionar
+            O que faz o Método S.L.I.M funcionar
           </h2>
         </div>
 

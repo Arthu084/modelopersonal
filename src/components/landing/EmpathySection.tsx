@@ -9,7 +9,7 @@ const EmpathySection = () => {
     <section className="w-full py-6 md:py-8">
       <div className="container mx-auto px-4 md:px-6 flex justify-center">
         <div className="animate-on-scroll w-full max-w-lg">
-          <Card className="bg-card border-none shadow-2xl text-center">
+          <Card className="bg-card border-none shadow-2xl text-center rounded-2xl">
             <CardContent className="p-6 md:p-8 space-y-4">
               {victorImage && (
                 <div className="flex-shrink-0 flex justify-center mb-4">

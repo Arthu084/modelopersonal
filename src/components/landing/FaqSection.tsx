@@ -37,7 +37,7 @@ const FaqSection = () => {
         <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
           <Accordion type="single" collapsible className="w-full space-y-4">
             {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="bg-card border rounded-lg overflow-hidden">
+              <AccordionItem key={index} value={`item-${index}`} className="bg-card border rounded-2xl overflow-hidden">
                 <AccordionTrigger className="text-left font-bold text-lg p-6 hover:no-underline">
                   {faq.question}
                 </AccordionTrigger>

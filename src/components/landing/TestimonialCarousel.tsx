@@ -41,7 +41,7 @@ export function TestimonialCarousel() {
           return (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-[45%] xl:basis-1/3">
               <div className="p-1 h-full">
-                <Card className="bg-card border-border h-full flex flex-col shadow-xl">
+                <Card className="bg-card border-border h-full flex flex-col shadow-xl rounded-2xl">
                   <CardContent className="p-6 flex flex-col items-center justify-start text-center space-y-4 flex-1">
                     {image && (
                       <div className="flex-shrink-0 flex justify-center mb-4">
