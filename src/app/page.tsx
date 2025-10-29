@@ -1,5 +1,4 @@
 import HeroSection from '@/components/landing/HeroSection';
-import EmpathySection from '@/components/landing/EmpathySection';
 import OfferSection from '@/components/landing/OfferSection';
 import FaqSection from '@/components/landing/FaqSection';
 import WhatsAppButton from '@/components/landing/WhatsAppButton';

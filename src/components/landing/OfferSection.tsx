@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Dumbbell, UtensilsCrossed, MessageSquare, Target } from "lucide-react";
-import EmpathySection from "./EmpathySection";
+import Image from "next/image";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { Card, CardContent } from "@/components/ui/card";
 
 const OfferSection = () => {
   const features = [
@@ -9,9 +11,11 @@ const OfferSection = () => {
     { text: "Acompanhamento direto e pessoal via WhatsApp para tirar dúvidas.", icon: MessageSquare },
     { text: "Monitoramento semanal dos resultados para garantir sua evolução contínua.", icon: Target },
   ];
+  
+  const victorImage = PlaceHolderImages.find(p => p.id === 'empathy-image');
 
   return (
-    <section id="offer" className="w-full bg-card pt-8 lg:pt-10">
+    <section id="offer" className="w-full bg-card pt-16 lg:pt-20">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-4">
 
         <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
@@ -30,7 +34,31 @@ const OfferSection = () => {
           </div>
         </div>
 
-        <EmpathySection />
+        <div className="animate-on-scroll" style={{ animationDelay: '0.15s' }}>
+          <div className="bg-background text-card-foreground p-8 md:p-10 rounded-2xl shadow-2xl border border-border/50">
+              {victorImage && (
+                <div className="flex-shrink-0 flex justify-center mb-4">
+                  <Image
+                    src={victorImage.imageUrl}
+                    alt={victorImage.description}
+                    width={100}
+                    height={100}
+                    className="rounded-full object-cover border-[3px] border-green-500 shadow-lg"
+                    data-ai-hint={victorImage.imageHint}
+                  />
+                </div>
+              )}
+              <div className="space-y-2">
+                <blockquote className="text-lg md:text-xl font-light leading-relaxed text-foreground">
+                  “Eu sei como é olhar no espelho e <span className="font-bold text-primary">não se reconhecer mais</span>. Com o método certo, é totalmente possível transformar seu corpo e sua autoestima com o tempo que você tem.”
+                </blockquote>
+                <div>
+                  <p className="font-bold text-lg text-foreground">Ricardo Dutra</p>
+                  <p className="text-sm text-muted-foreground">Criador do Método Dutra</p>
+                </div>
+              </div>
+          </div>
+        </div>
         
         <div className="animate-on-scroll" style={{ animationDelay: '0.2s' }}>
           <Button asChild size="lg" className="w-full max-w-md mx-auto rounded-lg text-xl font-bold px-10 py-8 shadow-lg btn-shine transition-all duration-300 transform hover:scale-105">
