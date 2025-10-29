@@ -12,9 +12,9 @@ export default function Home() {
     <div className="flex flex-col min-h-dvh bg-background text-foreground overflow-x-hidden">
       <main className="flex-1">
         <HeroSection />
-        <EmpathySection />
-        <MethodSection />
         <ResultsSection />
+        <MethodSection />
+        <EmpathySection />
         <OfferSection />
         <FaqSection />
       </main>
