@@ -79,3 +79,31 @@
     }
   }
 }
+
+@layer components {
+  .btn-shine {
+    @apply relative overflow-hidden;
+  }
+
+  .btn-shine::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    bottom: -50%;
+    left: -50%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+    transform: rotateZ(60deg) translate(-5em, 7.5em);
+  }
+
+  .btn-shine:hover::after, .btn-shine:focus::after {
+    animation: shine 1.5s forwards;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes shine {
+    100% {
+      transform: rotateZ(60deg) translate(1em, -9em);
+    }
+  }
+}

@@ -92,16 +92,11 @@ export default {
           '0%, 100%': { opacity: '1', boxShadow: '0 0 0 0 hsl(var(--primary) / 0.7)' },
           '70%': { opacity: '0.8', boxShadow: '0 0 10px 10px hsl(var(--primary) / 0)' },
         },
-        'subtle-pulse': {
-          '0%, 100%': { transform: 'scale(1)' },
-          '50%': { transform: 'scale(1.02)' },
-        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         'pulse-glow': 'pulse-glow 2.5s infinite',
-        'subtle-pulse': 'subtle-pulse 2.5s infinite ease-in-out',
       },
     },
   },
