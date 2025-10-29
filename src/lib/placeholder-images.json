@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "Personal trainer Victor Pablo training with female students in a gym.",
+      "imageUrl": "https://images.unsplash.com/photo-1567398724206-be8c8f0f8e41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0cmFpbmVyJTIwc3R1ZGVudHN8ZW58MHx8fHwxNzYxNzE1NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "trainer students"
+    },
+    {
+      "id": "empathy-image",
+      "description": "Portrait of Victor Pablo, creator of the S.L.I.M method.",
+      "imageUrl": "https://images.unsplash.com/photo-1571732154690-f6d1c3e5178a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb25hbCUyMHRyYWluZXJ8ZW58MHx8fHwxNzYxNzAzMTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "personal trainer"
+    },
+    {
+      "id": "testimonial-1-before",
+      "description": "Before photo for a testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1628258113926-b8d725bbffe9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMGJlZm9yZSUyMGZpdG5lc3N8ZW58MHx8fHwxNzYxNzE1NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman before fitness"
+    },
+    {
+      "id": "testimonial-1-after",
+      "description": "After photo for a testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1589636279071-23150d8fd33e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMGFmdGVyJTIwZml0bmVzc3xlbnwwfHx8fDE3NjE3MTU2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman after fitness"
+    },
+    {
+      "id": "testimonial-2-before",
+      "description": "Before photo for a testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1600037827534-5770c468049b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMGJlZm9yZSUyMHdvcmtvdXR8ZW58MHx8fHwxNzYxNzE1NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman before workout"
+    },
+    {
+      "id": "testimonial-2-after",
+      "description": "After photo for a testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1571385778997-1ae4643264e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMGFmdGVyJTIwd29ya291dHxlbnwwfHx8fDE3NjE3MTU2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman after workout"
+    },
+    {
+      "id": "testimonial-video-1",
+      "description": "Thumbnail for a video testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1445384763658-0400939829cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMGZpdG5lc3N8ZW58MHx8fHwxNzYxNzEwMzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman fitness"
+    }
+  ]
 }
