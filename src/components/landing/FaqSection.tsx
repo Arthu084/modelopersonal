@@ -29,7 +29,7 @@ const FaqSection = () => {
     <section id="faq" className="w-full bg-background py-16 lg:py-20">
       <div className="container mx-auto px-4 md:px-6 max-w-3xl mx-auto space-y-12">
         <div className="text-center space-y-4 animate-on-scroll">
-          <h2 className="text-3xl md:text-4xl font-headline font-bold">
+          <h2 className="text-4xl md:text-4xl font-headline font-bold">
             Dúvidas Frequentes
           </h2>
         </div>
@@ -42,7 +42,7 @@ const FaqSection = () => {
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="p-6 pt-0">
-                  <p className="text-foreground text-base">{faq.answer}</p>
+                  <p className="text-black text-base">{faq.answer}</p>
                 </AccordionContent>
               </AccordionItem>
             ))}

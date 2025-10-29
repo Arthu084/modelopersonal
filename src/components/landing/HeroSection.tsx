@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="w-full bg-white pt-12 pb-8">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-6 animate-on-scroll">
-          <h1 className="text-3xl md:text-4xl font-headline font-bold text-foreground leading-tight max-w-3xl">
+          <h1 className="text-4xl md:text-4xl font-headline font-bold text-foreground leading-tight max-w-3xl">
             Ajudando mulheres sem tempo a conquistarem um corpo elegante e definido com o Método S.L.I.M.
           </h1>
           <div className="inline-block text-left">
