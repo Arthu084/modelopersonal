@@ -44,7 +44,7 @@ export function TestimonialCarousel() {
                 <Card className="bg-card border-border h-full flex flex-col shadow-xl rounded-2xl">
                   <CardContent className="p-6 flex flex-col items-center justify-start text-center space-y-4 flex-1">
                     {image && (
-                      <div className="flex-shrink-0 flex justify-center mb-4">
+                      <div className="flex-shrink-0 flex justify-center">
                         <Image
                           src={image.imageUrl}
                           alt={image.description}
@@ -59,7 +59,7 @@ export function TestimonialCarousel() {
                       {[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-current" />)}
                     </div>
                     <blockquote className="text-lg font-medium italic leading-snug flex-grow">“{testimonial.quote}”</blockquote>
-                    <p className="font-bold text-primary text-lg mt-2">- {testimonial.name}</p>
+                    <p className="font-bold text-primary text-lg">- {testimonial.name}</p>
                   </CardContent>
                 </Card>
               </div>
