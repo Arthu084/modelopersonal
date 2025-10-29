@@ -59,7 +59,7 @@ export function TestimonialCarousel() {
                       {[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-current" />)}
                     </div>
                     <blockquote className="text-lg font-medium italic leading-snug flex-grow">“{testimonial.quote}”</blockquote>
-                    <p className="font-bold text-primary text-lg">- {testimonial.name}</p>
+                    <p className="font-bold text-primary text-lg mt-2">- {testimonial.name}</p>
                   </CardContent>
                 </Card>
               </div>
