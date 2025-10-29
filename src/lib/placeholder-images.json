@@ -32,9 +32,9 @@
     },
     {
       "id": "testimonial-2-after",
-      "description": "After photo for a testimonial.",
-      "imageUrl": "https://images.unsplash.com/photo-1571385778997-1ae4643264e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMGFmdGVyJTIwd29ya291dHxlbnwwfHx8fDE3NjE3MTU2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman after workout"
+      "description": "Smiling woman in sportswear.",
+      "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5ODZ8MHwxfGFsbHx8fHx8fHx8fDE2NTY1OTU2MjQ&ixlib=rb-1.2.1&q=80&w=1080",
+      "imageHint": "smiling woman sportswear"
     },
     {
       "id": "testimonial-video-1",
@@ -45,7 +45,7 @@
     {
       "id": "testimonial-3-after",
       "description": "Happy woman after her fitness journey.",
-      "imageUrl": "https://images.unsplash.com/photo-1549476464-37392241ea94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5ODZ8MHwxfGFsbHx8fHx8fHx8fDE2NTY1OTU2MjQ&ixlib=rb-1.2.1&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5ODZ8MHwxfGFsbHx8fHx8fHx8fDE2NTY1OTU2MjQ&ixlib=rb-1.2.1&q=80&w=1080",
       "imageHint": "happy woman fitness"
     },
     {
@@ -56,9 +56,9 @@
     },
     {
       "id": "testimonial-5-after",
-      "description": "Fit woman smiling and looking confident.",
-      "imageUrl": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5ODZ8MHwxfGFsbHx8fHx8fHx8fDE2NTY1OTU2MjQ&ixlib=rb-1.2.1&q=80&w=1080",
-      "imageHint": "fit woman confident"
+      "description": "Confident woman in gym attire.",
+      "imageUrl": "https://images.unsplash.com/photo-1594882645126-14020914d58d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5ODZ8MHwxfGFsbHx8fHx8fHx8fDE2NTY1OTU2MjQ&ixlib=rb-1.2.1&q=80&w=1080",
+      "imageHint": "confident woman gym"
     }
   ]
 }
