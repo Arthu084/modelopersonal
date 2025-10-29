@@ -9,18 +9,20 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel";
 import { Star } from "lucide-react";
+import Image from "next/image";
 
 type Testimonial = {
   quote: string;
   name: string;
+  imageUrl: string;
 };
 
 const testimonials: Testimonial[] = [
-  { quote: "Voltei a usar minhas roupas antigas em 3 semanas!", name: "Ana P." },
-  { quote: "Nunca pensei que conseguiria resultados treinando tão pouco tempo. O método é incrível!", name: "Bruna C." },
-  { quote: "A orientação do Ricardo fez toda a diferença. Me sinto mais confiante e motivada!", name: "Lúcia M." },
-  { quote: "Perdi a barriga que me incomodava e ganhei uma definição que amo. Super recomendo!", name: "Carla S." },
-  { quote: "Finalmente um plano que se encaixa na minha rotina de mãe e profissional. Estou amando!", name: "Sofia R." },
+  { quote: "Voltei a usar minhas roupas antigas em 3 semanas!", name: "Ana P.", imageUrl: "https://i.imgur.com/pzuwSz6.jpg" },
+  { quote: "Nunca pensei que conseguiria resultados treinando tão pouco tempo. O método é incrível!", name: "Bruna C.", imageUrl: "https://i.imgur.com/O4ZTc2d.jpg" },
+  { quote: "A orientação do Ricardo fez toda a diferença. Me sinto mais confiante e motivada!", name: "Lúcia M.", imageUrl: "https://i.imgur.com/SOzBDIR.jpg" },
+  { quote: "Perdi a barriga que me incomodava e ganhei uma definição que amo. Super recomendo!", name: "Carla S.", imageUrl: "https://i.imgur.com/WP1qLrx.jpg" },
+  { quote: "Finalmente um plano que se encaixa na minha rotina de mãe e profissional. Estou amando!", name: "Sofia R.", imageUrl: "https://i.imgur.com/oWJZjtW.jpg" },
 ];
 
 export function TestimonialCarousel() {
@@ -64,11 +66,14 @@ export function TestimonialCarousel() {
                   <Card className="bg-background border-none h-full flex flex-col shadow-2xl rounded-3xl">
                     <CardContent className="p-8 flex flex-col items-center justify-start text-center space-y-4 flex-1">
                       <div className="flex-shrink-0 flex justify-center mb-4">
-                        <div
-                          className="w-[100px] h-[100px] rounded-full bg-muted border-[3px] border-primary shadow-lg flex items-center justify-center"
-                          data-ai-hint="placeholder circle"
-                        >
-                        </div>
+                        <Image
+                          src={testimonial.imageUrl}
+                          alt={`Depoimento de ${testimonial.name}`}
+                          width={100}
+                          height={100}
+                          className="w-[100px] h-[100px] rounded-full object-cover border-[3px] border-primary shadow-lg"
+                          data-ai-hint="testimonial portrait"
+                        />
                       </div>
                       <div className="flex text-yellow-400">
                         {[...Array(5)].map((_, i) => (
