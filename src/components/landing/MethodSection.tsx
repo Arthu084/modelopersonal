@@ -37,7 +37,7 @@ const MethodSection = () => {
     <section id="method" className="w-full bg-background pt-16 lg:pt-20">
       <div className="container mx-auto px-4 md:px-6 text-center space-y-8">
         <div className="space-y-4 animate-on-scroll">
-          <h2 className="text-3xl md:text-4xl font-headline font-bold">
+          <h2 className="text-3xl md:text-4xl font-headline font-bold text-foreground">
             O que faz o Método <br /> Dutra funcionar
           </h2>
         </div>
