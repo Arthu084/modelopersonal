@@ -28,9 +28,9 @@ const MethodCard = ({ icon: Icon, title, description, delay }: MethodCardProps) 
 
 const MethodSection = () => {
   const methods = [
-    { icon: Dumbbell, title: "1️⃣ Treinos Inteligentes", description: "curtos, precisos e adaptados ao seu nível — funcionam mesmo com 40 minutos por dia." },
-    { icon: UtensilsCrossed, title: "2️⃣ Alimentação Estratégica", description: "sem dietas malucas, apenas ajustes simples pra manter resultados duradouros." },
-    { icon: MessageSquare, title: "3️⃣ Acompanhamento Pessoal", description: "contato direto com o Victor e feedbacks individuais pra garantir evolução constante." },
+    { icon: Dumbbell, title: "Treinos Inteligentes", description: "curtos, precisos e adaptados ao seu nível — funcionam mesmo com 40 minutos por dia." },
+    { icon: UtensilsCrossed, title: "Alimentação Estratégica", description: "sem dietas malucas, apenas ajustes simples pra manter resultados duradouros." },
+    { icon: MessageSquare, title: "Acompanhamento Pessoal", description: "contato direto com o Victor e feedbacks individuais pra garantir evolução constante." },
   ];
 
   return (
@@ -42,7 +42,7 @@ const MethodSection = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-4">
           {methods.map((method, index) => (
             <MethodCard key={method.title} {...method} delay={`${index * 0.1}s`} />
           ))}
