@@ -4,48 +4,48 @@
 
 @layer base {
   :root {
-    --background: 30 67% 97%; /* Bege claro */
-    --foreground: 0 0% 18%; /* Cinza chumbo */
-    --card: 30 67% 97%;
-    --card-foreground: 0 0% 18%;
-    --popover: 30 67% 97%;
-    --popover-foreground: 0 0% 18%;
-    --primary: 0 53% 77%; /* Rosa queimado */
-    --primary-foreground: 0 0% 18%; /* Cinza chumbo para contraste */
-    --secondary: 30 20% 90%; /* Tom mais escuro do bege */
-    --secondary-foreground: 0 0% 18%;
-    --muted: 30 20% 90%;
-    --muted-foreground: 0 0% 45.1%;
-    --accent: 39 44% 66%; /* Dourado suave */
-    --accent-foreground: 0 0% 18%;
-    --destructive: 0 84.2% 60.2%;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 262.1 83.3% 57.8%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 53% 77%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 262.1 83.3% 57.8%;
     --radius: 0.75rem;
   }
  
   .dark {
-    --background: 0 0% 10%; /* Cinza escuro para modo noturno */
-    --foreground: 30 67% 97%; /* Bege claro */
-    --card: 0 0% 10%;
-    --card-foreground: 30 67% 97%;
-    --popover: 0 0% 10%;
-    --popover-foreground: 30 67% 97%;
-    --primary: 0 53% 77%; /* Rosa queimado */
-    --primary-foreground: 0 0% 18%;
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 30 67% 97%;
-    --muted: 0 0% 15%;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 262.1 83.3% 57.8%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
     --muted-foreground: 0 0% 63.9%;
-    --accent: 39 44% 66%; /* Dourado suave */
-    --accent-foreground: 0 0% 18%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 0 53% 77%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 262.1 83.3% 57.8%;
   }
 }
 

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 const EmpathySection = () => {
   const victorImage = PlaceHolderImages.find(p => p.id === 'empathy-image');
   return (
-    <section className="w-full pt-2 md:pt-4">
+    <section className="w-full pt-20 md:pt-24">
       <div className="container mx-auto px-4 md:px-6 flex justify-center">
         <div className="animate-on-scroll w-full max-w-lg">
           <Card className="bg-card border-none shadow-2xl text-center rounded-2xl">
