@@ -29,12 +29,12 @@ const MethodSection = () => {
   const methods = [
     { icon: Dumbbell, title: "Treinos Inteligentes", description: "curtos, precisos e adaptados ao seu nível — funcionam mesmo com 40 minutos por dia." },
     { icon: UtensilsCrossed, title: "Alimentação Estratégica", description: "sem dietas malucas, apenas ajustes simples pra manter resultados duradouros." },
-    { icon: MessageSquare, title: "Acompanhamento Pessoal", description: "contato direto com o Victor e feedbacks individuais pra garantir evolução constante." },
+    { icon: MessageSquare, title: "Acompanhamento Pessoal", description: "contato direto com o Ricardo e feedbacks individuais pra garantir evolução constante." },
     { icon: Users, title: "Comunidade Exclusiva", description: "Acesso a um grupo de mulheres com os mesmos objetivos, para motivação e troca de experiências." },
   ];
 
   return (
-    <section id="method" className="w-full bg-background pt-20 lg:pt-24">
+    <section id="method" className="w-full bg-background pt-16 lg:pt-20">
       <div className="container mx-auto px-4 md:px-6 text-center space-y-8">
         <div className="space-y-4 animate-on-scroll">
           <h2 className="text-3xl md:text-4xl font-headline font-bold">

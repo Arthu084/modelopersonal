@@ -3,7 +3,7 @@ import { PlayCircle } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="w-full bg-background pt-12 pb-8">
+    <section className="w-full bg-background pt-12 pb-2">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-6 animate-on-scroll">
           <h1 className="text-3xl md:text-4xl font-headline font-bold text-foreground leading-tight max-w-3xl">

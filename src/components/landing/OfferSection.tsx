@@ -10,7 +10,7 @@ const OfferSection = () => {
   ];
 
   return (
-    <section id="offer" className="w-full bg-secondary py-0 lg:py-0">
+    <section id="offer" className="w-full bg-secondary py-16 lg:py-20">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-12">
 
         <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
