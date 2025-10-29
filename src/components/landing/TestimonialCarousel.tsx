@@ -65,7 +65,7 @@ export function TestimonialCarousel() {
                     <CardContent className="p-8 flex flex-col items-center justify-start text-center space-y-4 flex-1">
                       <div className="flex-shrink-0 flex justify-center mb-4">
                         <div
-                          className="w-[150px] h-[150px] rounded-full bg-muted border-2 border-primary shadow-lg flex items-center justify-center"
+                          className="w-[120px] h-[120px] rounded-full bg-muted border-2 border-primary shadow-lg flex items-center justify-center"
                           data-ai-hint="placeholder circle"
                         >
                         </div>
