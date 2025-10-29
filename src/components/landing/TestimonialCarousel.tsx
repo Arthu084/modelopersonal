@@ -41,19 +41,20 @@ export function TestimonialCarousel() {
           return (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-[45%] xl:basis-1/3">
               <div className="p-1 h-full">
-                <Card className="bg-background border-border overflow-hidden h-full flex flex-col shadow-lg">
-                  {image && (
-                    <div className="relative w-full h-56">
-                       <Image 
-                         src={image.imageUrl} 
-                         alt={image.description} 
-                         fill
-                         className="object-cover"
-                         data-ai-hint={image.imageHint}
-                       />
-                    </div>
-                  )}
+                <Card className="bg-card border-border h-full flex flex-col shadow-xl">
                   <CardContent className="p-6 flex flex-col items-center justify-start text-center space-y-4 flex-1">
+                    {image && (
+                      <div className="flex-shrink-0 flex justify-center mb-4">
+                        <Image
+                          src={image.imageUrl}
+                          alt={image.description}
+                          width={120}
+                          height={120}
+                          className="rounded-full object-cover border-4 border-primary shadow-lg"
+                          data-ai-hint={image.imageHint}
+                        />
+                      </div>
+                    )}
                     <div className="flex text-yellow-400">
                       {[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-current" />)}
                     </div>
