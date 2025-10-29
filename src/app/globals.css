@@ -4,48 +4,48 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
-    --primary: 275 47% 47%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 96.1%;
+    --background: 30 67% 97%; /* Bege claro */
+    --foreground: 0 0% 18%; /* Cinza chumbo */
+    --card: 30 67% 97%;
+    --card-foreground: 0 0% 18%;
+    --popover: 30 67% 97%;
+    --popover-foreground: 0 0% 18%;
+    --primary: 0 53% 77%; /* Rosa queimado */
+    --primary-foreground: 0 0% 18%; /* Cinza chumbo para contraste */
+    --secondary: 30 20% 90%; /* Tom mais escuro do bege */
+    --secondary-foreground: 0 0% 18%;
+    --muted: 30 20% 90%;
     --muted-foreground: 0 0% 45.1%;
-    --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
+    --accent: 39 44% 66%; /* Dourado suave */
+    --accent-foreground: 0 0% 18%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 89.8%;
     --input: 0 0% 89.8%;
-    --ring: 275 47% 47%;
+    --ring: 0 53% 77%;
     --radius: 0.75rem;
   }
  
   .dark {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 275 47% 47%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 14.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 14.9%;
+    --background: 0 0% 10%; /* Cinza escuro para modo noturno */
+    --foreground: 30 67% 97%; /* Bege claro */
+    --card: 0 0% 10%;
+    --card-foreground: 30 67% 97%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 30 67% 97%;
+    --primary: 0 53% 77%; /* Rosa queimado */
+    --primary-foreground: 0 0% 18%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 30 67% 97%;
+    --muted: 0 0% 15%;
     --muted-foreground: 0 0% 63.9%;
-    --accent: 0 0% 14.9%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 39 44% 66%; /* Dourado suave */
+    --accent-foreground: 0 0% 18%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
-    --ring: 275 47% 47%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 53% 77%;
   }
 }
 
