@@ -16,9 +16,6 @@ const OfferSection = () => {
           <h2 className="text-3xl md:text-4xl font-headline font-bold">
             Vagas Abertas para o Acompanhamento Individual do Método S.L.I.M
           </h2>
-          <p className="text-lg md:text-xl text-muted-foreground">
-            Estou abrindo novas vagas para minha consultoria personalizada (online e presencial em Natal/RN). Cada aluna recebe acompanhamento direto comigo — por isso, as vagas são limitadas.
-          </p>
         </div>
 
         <div className="bg-card p-8 rounded-2xl shadow-2xl shadow-primary/10 border border-border animate-on-scroll" style={{ animationDelay: '0.1s' }}>
