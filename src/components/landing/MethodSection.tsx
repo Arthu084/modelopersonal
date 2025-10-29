@@ -34,7 +34,7 @@ const MethodSection = () => {
   ];
 
   return (
-    <section id="method" className="w-full bg-background py-20 lg:py-28">
+    <section id="method" className="w-full bg-background py-16 lg:py-20">
       <div className="container mx-auto px-4 md:px-6 text-center space-y-16">
         <div className="space-y-4 animate-on-scroll">
           <h2 className="text-4xl md:text-5xl font-headline font-bold">

@@ -6,10 +6,10 @@ const HeroSection = () => {
   const heroImage = PlaceHolderImages.find(p => p.id === 'hero-image');
 
   return (
-    <section className="w-full bg-secondary py-20 lg:py-32">
+    <section className="w-full bg-secondary pt-20 lg:pt-28 pb-16 lg:pb-20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="flex flex-col items-start text-left space-y-6 animate-on-scroll">
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-6 animate-on-scroll">
             <h1 className="text-4xl md:text-5xl font-headline font-bold text-foreground leading-tight">
               💥 Transforme Seu Corpo e Recupere Sua Confiança com o <span className="text-primary">Método S.L.I.M</span>
             </h1>
@@ -17,9 +17,9 @@ const HeroSection = () => {
               O método criado por Victor Pablo, personal trainer e coach, que já ajudou centenas de mulheres com rotinas corridas a secarem a barriga, definirem o corpo e voltarem a se sentir incríveis em frente ao espelho — com treinos de 35 a 50 minutos por dia.
             </p>
             <div>
-              <Button asChild size="lg" className="rounded-lg text-lg px-8 py-6 shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 transition-shadow duration-300">
-                <a href="https://wa.me/?text=Oi%20Victor!%20Quero%20saber%20mais%20sobre%20o%20M%C3%A9todo%20S.L.I.M%20%F0%9F%91%8B" target="_blank" rel="noopener noreferrer">
-                  💬 Quero Fazer Parte do S.L.I.M
+              <Button asChild size="lg" className="rounded-lg text-xl px-10 py-8 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105">
+                <a href="https://wa.me/?text=Quero%20fazer%20parte%20do%20S.L.I.M%20agora!" target="_blank" rel="noopener noreferrer">
+                  💥 Quero fazer parte do S.L.I.M agora!
                 </a>
               </Button>
             </div>

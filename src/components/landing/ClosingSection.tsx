@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const ClosingSection = () => {
   return (
-    <section className="w-full bg-secondary py-20 lg:py-28">
+    <section className="w-full bg-secondary py-16 lg:py-20">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-8">
         <div className="space-y-6 animate-on-scroll">
           <p className="text-2xl md:text-3xl font-light text-foreground leading-relaxed">

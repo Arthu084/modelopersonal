@@ -10,7 +10,7 @@ const OfferSection = () => {
   ];
 
   return (
-    <section className="w-full bg-secondary py-20 lg:py-28">
+    <section className="w-full bg-secondary py-16 lg:py-20">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-4xl mx-auto space-y-12">
         <div className="space-y-4 animate-on-scroll">
           <h2 className="text-4xl md:text-5xl font-headline font-bold">
