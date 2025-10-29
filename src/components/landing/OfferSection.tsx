@@ -12,7 +12,7 @@ const OfferSection = () => {
 
   return (
     <section id="offer" className="w-full bg-card py-0">
-      <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-12">
+      <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-4">
 
         <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
           <div className="bg-background text-card-foreground p-8 md:p-10 rounded-2xl shadow-2xl border border-border/50">
