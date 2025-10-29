@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button";
 const EmpathySection = () => {
   const victorImage = PlaceHolderImages.find(p => p.id === 'empathy-image');
   return (
-    <section className="w-full bg-background py-16 lg:py-20">
+    <section className="w-full py-12 md:py-16">
       <div className="container mx-auto px-4 md:px-6 flex justify-center">
         <div className="animate-on-scroll w-full max-w-lg">
-          <Card className="bg-card border-border shadow-2xl text-center">
+          <Card className="bg-card border-none shadow-2xl text-center">
             <CardContent className="p-8 md:p-12 space-y-6">
               {victorImage && (
                 <div className="flex-shrink-0 flex justify-center mb-4">
@@ -32,10 +32,10 @@ const EmpathySection = () => {
                   <p className="text-md text-muted-foreground">Criador do Método S.L.I.M</p>
                 </div>
               </div>
-              <div className="pt-4">
-                <Button asChild size="lg" className="rounded-lg text-lg px-8 py-6 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105 w-full max-w-xs mx-auto">
+              <div className="pt-2">
+                <Button asChild size="lg" className="rounded-lg text-lg px-8 py-6 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105 w-full max-w-md mx-auto">
                   <a href="https://wa.me/?text=Quero%20fazer%20parte%20do%20S.L.I.M%20agora!" target="_blank" rel="noopener noreferrer">
-                    Quero fazer parte do S.L.I.M agora!
+                    QUERO ENTRAR PARA O TIME
                   </a>
                 </Button>
               </div>
