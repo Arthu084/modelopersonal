@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const EmpathySection = () => {
   const victorImage = PlaceHolderImages.find(p => p.id === 'empathy-image');
@@ -11,7 +12,7 @@ const EmpathySection = () => {
           <Card className="bg-card border-border shadow-2xl text-center">
             <CardContent className="p-8 md:p-12 space-y-6">
               {victorImage && (
-                <div className="flex-shrink-0 flex justify-center">
+                <div className="flex-shrink-0 flex justify-center mb-4">
                   <Image
                     src={victorImage.imageUrl}
                     alt={victorImage.description}
@@ -30,6 +31,13 @@ const EmpathySection = () => {
                   <p className="font-bold text-xl text-card-foreground">Victor Pablo</p>
                   <p className="text-md text-muted-foreground">Criador do Método S.L.I.M</p>
                 </div>
+              </div>
+              <div className="pt-4">
+                <Button asChild size="lg" className="rounded-lg text-lg px-8 py-6 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105 w-full max-w-xs mx-auto">
+                  <a href="https://wa.me/?text=Quero%20fazer%20parte%20do%20S.L.I.M%20agora!" target="_blank" rel="noopener noreferrer">
+                    Quero fazer parte do S.L.I.M agora!
+                  </a>
+                </Button>
               </div>
             </CardContent>
           </Card>
