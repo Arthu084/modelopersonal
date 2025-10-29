@@ -34,11 +34,11 @@ const MethodSection = () => {
   ];
 
   return (
-    <section id="method" className="w-full bg-background py-16 lg:py-20">
-      <div className="container mx-auto px-4 md:px-6 text-center space-y-16">
+    <section id="method" className="w-full bg-background py-12">
+      <div className="container mx-auto px-4 md:px-6 text-center space-y-12">
         <div className="space-y-4 animate-on-scroll">
-          <h2 className="text-4xl md:text-5xl font-headline font-bold">
-            🔍 Entenda o que faz o <span className="text-primary">Método S.L.I.M</span> funcionar
+          <h2 className="text-3xl md:text-4xl font-headline font-bold">
+            Entenda o que faz o <span className="text-primary">Método S.L.I.M</span> funcionar
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
             O S.L.I.M (Sistema de Liberação Inteligente de Metabolismo) é um protocolo criado para mulheres reais — com pouco tempo, mas muita vontade de mudar.
@@ -51,13 +51,10 @@ const MethodSection = () => {
           ))}
         </div>
 
-        <div className="space-y-8 animate-on-scroll" style={{ animationDelay: '0.3s' }}>
-          <p className="text-2xl md:text-3xl font-bold font-headline text-foreground">
-            🚀 “Você não precisa treinar mais — <span className="text-primary">precisa treinar certo.</span>”
-          </p>
-          <Button asChild size="lg" className="rounded-lg text-lg px-8 py-6 shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 transition-shadow duration-300">
+        <div className="animate-on-scroll" style={{ animationDelay: '0.3s' }}>
+          <Button asChild size="lg" className="rounded-lg text-lg px-8 py-6 shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 transition-shadow duration-300 w-full max-w-xs mx-auto">
             <a href="https://wa.me/?text=Quero%20meu%20plano%20S.L.I.M%20personalizado!" target="_blank" rel="noopener noreferrer">
-              💬 Quero meu plano S.L.I.M personalizado
+              Quero meu plano personalizado
             </a>
           </Button>
         </div>
