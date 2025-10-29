@@ -18,13 +18,13 @@ const EmpathySection = () => {
                     alt={victorImage.description}
                     width={100}
                     height={100}
-                    className="rounded-full object-cover border-4 border-primary shadow-lg"
+                    className="rounded-full object-cover border-[3px] border-green-500 shadow-lg"
                     data-ai-hint={victorImage.imageHint}
                   />
                 </div>
               )}
               <div className="space-y-2">
-                <blockquote className="text-lg md:text-xl font-light leading-relaxed text-foreground">
+                <blockquote className="text-lg md:text-xl font-light leading-relaxed text-card-foreground">
                   “Eu sei como é olhar no espelho e <span className="font-bold text-primary">não se reconhecer mais</span>. Com o método certo, é totalmente possível transformar seu corpo e sua autoestima com o tempo que você tem.”
                 </blockquote>
                 <div>

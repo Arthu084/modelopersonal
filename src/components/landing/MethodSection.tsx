@@ -16,7 +16,7 @@ const MethodCard = ({ icon: Icon, title, description, delay }: MethodCardProps) 
         <div className="bg-primary/10 p-3 rounded-full mb-2">
           <Icon className="w-10 h-10 text-primary" />
         </div>
-        <CardTitle className="font-headline text-xl">{title}</CardTitle>
+        <CardTitle className="font-headline text-xl text-card-foreground">{title}</CardTitle>
       </CardHeader>
       <CardContent className="p-4 pt-0">
         <p className="text-muted-foreground text-sm">{description}</p>

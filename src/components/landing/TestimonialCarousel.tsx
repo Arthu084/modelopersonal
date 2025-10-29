@@ -61,11 +61,11 @@ export function TestimonialCarousel() {
             return (
               <CarouselItem key={index}>
                 <div className="p-1 h-full">
-                  <Card className="bg-card border-none h-full flex flex-col shadow-2xl rounded-3xl">
+                  <Card className="bg-background border-none h-full flex flex-col shadow-2xl rounded-3xl">
                     <CardContent className="p-8 flex flex-col items-center justify-start text-center space-y-4 flex-1">
                       <div className="flex-shrink-0 flex justify-center mb-4">
                         <div
-                          className="w-[120px] h-[120px] rounded-full bg-muted border-2 border-primary shadow-lg flex items-center justify-center"
+                          className="w-[100px] h-[100px] rounded-full bg-muted border-[3px] border-primary shadow-lg flex items-center justify-center"
                           data-ai-hint="placeholder circle"
                         >
                         </div>
