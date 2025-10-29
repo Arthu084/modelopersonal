@@ -3,7 +3,7 @@ import { PlayCircle } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="w-full bg-background pt-12 pb-2">
+    <section className="w-full bg-background pt-8 pb-2">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-6 animate-on-scroll">
           <h1 className="text-3xl md:text-4xl font-headline font-bold text-foreground leading-tight max-w-3xl">
@@ -26,7 +26,7 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <Button asChild size="lg" className="rounded-lg text-lg px-8 py-6 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105 w-full max-w-md mx-auto">
+          <Button asChild size="lg" className="w-full max-w-md mx-auto rounded-lg text-xl px-10 py-8 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105">
             <a href="https://wa.me/?text=Quero%20fazer%20parte%20do%20Método%20Dutra%20agora!" target="_blank" rel="noopener noreferrer">
               QUERO ENTRAR PARA O TIME
             </a>
