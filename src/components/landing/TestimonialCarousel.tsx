@@ -20,6 +20,10 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
   { quote: "Voltei a usar minhas roupas antigas em 3 semanas!", name: "Ana P.", imageId: "testimonial-1-after" },
+  { quote: "Nunca pensei que conseguiria resultados treinando tão pouco tempo. O método é incrível!", name: "Bruna C.", imageId: "testimonial-2-after" },
+  { quote: "A orientação do Victor fez toda a diferença. Me sinto mais confiante e motivada!", name: "Lúcia M.", imageId: "testimonial-3-after" },
+  { quote: "Perdi a barriga que me incomodava e ganhei uma definição que amo. Super recomendo!", name: "Carla S.", imageId: "testimonial-4-after" },
+  { quote: "Finalmente um plano que se encaixa na minha rotina de mãe e profissional. Estou amando!", name: "Sofia R.", imageId: "testimonial-5-after" },
 ];
 
 const getImage = (id: string) => PlaceHolderImages.find(p => p.id === id);
@@ -55,8 +59,8 @@ export function TestimonialCarousel() {
                     <div className="flex text-yellow-400">
                       {[...Array(5)].map((_, i) => <Star key={i} className="w-6 h-6 fill-current" />)}
                     </div>
-                    <blockquote className="text-xl font-medium italic leading-snug flex-grow">“{testimonial.quote}”</blockquote>
                     <p className="font-bold text-primary text-lg pt-2">- {testimonial.name}</p>
+                    <blockquote className="text-xl font-medium italic leading-snug flex-grow">“{testimonial.quote}”</blockquote>
                   </CardContent>
                 </Card>
               </div>
