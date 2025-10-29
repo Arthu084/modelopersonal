@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Dumbbell, UtensilsCrossed, MessageSquare, Target } from "lucide-react";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Card, CardContent } from "@/components/ui/card";
 
 const OfferSection = () => {
   const features = [
@@ -15,7 +14,7 @@ const OfferSection = () => {
   const victorImage = PlaceHolderImages.find(p => p.id === 'empathy-image');
 
   return (
-    <section id="offer" className="w-full bg-card">
+    <section id="offer" className="w-full bg-card pt-4">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-4">
 
         <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
