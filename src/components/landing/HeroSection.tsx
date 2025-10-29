@@ -26,7 +26,7 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <Button asChild size="lg" className="w-full max-w-md mx-auto rounded-lg text-xl px-10 py-8 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105">
+          <Button asChild size="lg" className="w-full max-w-md mx-auto rounded-lg text-xl px-10 py-8 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105 animate-subtle-pulse">
             <a href="https://wa.me/?text=Quero%20fazer%20parte%20do%20Método%20Dutra%20agora!" target="_blank" rel="noopener noreferrer">
               QUERO ENTRAR PARA O TIME
             </a>
