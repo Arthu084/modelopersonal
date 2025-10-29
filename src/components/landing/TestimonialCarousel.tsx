@@ -18,7 +18,7 @@ type Testimonial = {
 const testimonials: Testimonial[] = [
   { quote: "Voltei a usar minhas roupas antigas em 3 semanas!", name: "Ana P." },
   { quote: "Nunca pensei que conseguiria resultados treinando tão pouco tempo. O método é incrível!", name: "Bruna C." },
-  { quote: "A orientação do Victor fez toda a diferença. Me sinto mais confiante e motivada!", name: "Lúcia M." },
+  { quote: "A orientação do Ricardo fez toda a diferença. Me sinto mais confiante e motivada!", name: "Lúcia M." },
   { quote: "Perdi a barriga que me incomodava e ganhei uma definição que amo. Super recomendo!", name: "Carla S." },
   { quote: "Finalmente um plano que se encaixa na minha rotina de mãe e profissional. Estou amando!", name: "Sofia R." },
 ];
@@ -65,7 +65,7 @@ export function TestimonialCarousel() {
                     <CardContent className="p-8 flex flex-col items-center justify-start text-center space-y-4 flex-1">
                       <div className="flex-shrink-0 flex justify-center mb-4">
                         <div
-                          className="w-[150px] h-[150px] rounded-full bg-muted border-4 border-primary shadow-lg flex items-center justify-center"
+                          className="w-[150px] h-[150px] rounded-full bg-muted border-2 border-primary shadow-lg flex items-center justify-center"
                           data-ai-hint="placeholder circle"
                         >
                         </div>

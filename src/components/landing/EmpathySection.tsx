@@ -18,7 +18,7 @@ const EmpathySection = () => {
                     alt={victorImage.description}
                     width={150}
                     height={150}
-                    className="rounded-full object-cover border-4 border-primary shadow-lg"
+                    className="rounded-full object-cover border-2 border-primary shadow-lg"
                     data-ai-hint={victorImage.imageHint}
                   />
                 </div>
