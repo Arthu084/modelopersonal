@@ -12,12 +12,6 @@ const OfferSection = () => {
   return (
     <section className="w-full bg-secondary py-12">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-4xl mx-auto space-y-6">
-        <div className="space-y-4 animate-on-scroll">
-          <h2 className="text-3xl md:text-4xl font-headline font-bold">
-            Vagas Abertas para o Acompanhamento Individual do Método S.L.I.M
-          </h2>
-        </div>
-
         <div className="bg-card p-8 rounded-2xl shadow-2xl shadow-primary/10 border border-border animate-on-scroll" style={{ animationDelay: '0.1s' }}>
           <h3 className="text-2xl font-headline mb-6 text-foreground">Você recebe:</h3>
           <ul className="space-y-4 text-left max-w-md mx-auto">
