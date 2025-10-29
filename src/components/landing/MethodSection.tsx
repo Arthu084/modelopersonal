@@ -12,7 +12,7 @@ interface MethodCardProps {
 
 const MethodCard = ({ icon: Icon, title, description, delay }: MethodCardProps) => (
   <div className="animate-on-scroll" style={{ animationDelay: delay }}>
-    <Card className="bg-card border-primary/20 h-full text-center hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transition-all duration-300">
+    <Card className="bg-card border-border h-full text-center hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transition-all duration-300">
       <CardHeader className="items-center">
         <div className="bg-primary/10 p-4 rounded-full mb-4">
           <Icon className="w-8 h-8 text-primary" />
@@ -34,7 +34,7 @@ const MethodSection = () => {
   ];
 
   return (
-    <section id="method" className="w-full bg-black py-20 lg:py-28">
+    <section id="method" className="w-full bg-background py-20 lg:py-28">
       <div className="container mx-auto px-4 md:px-6 text-center space-y-16">
         <div className="space-y-4 animate-on-scroll">
           <h2 className="text-4xl md:text-5xl font-headline font-bold">
@@ -52,7 +52,7 @@ const MethodSection = () => {
         </div>
 
         <div className="space-y-8 animate-on-scroll" style={{ animationDelay: '0.3s' }}>
-          <p className="text-2xl md:text-3xl font-bold font-headline text-white">
+          <p className="text-2xl md:text-3xl font-bold font-headline text-foreground">
             🚀 “Você não precisa treinar mais — <span className="text-primary">precisa treinar certo.</span>”
           </p>
           <Button asChild size="lg" className="rounded-lg text-lg px-8 py-6 shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 transition-shadow duration-300">

@@ -43,7 +43,7 @@ export function TestimonialCarousel() {
           return (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-1 h-full">
-                <Card className="bg-background border-primary/20 overflow-hidden h-full flex flex-col">
+                <Card className="bg-background border-border overflow-hidden h-full flex flex-col">
                   <CardContent className="p-6 flex flex-col items-center justify-center text-center space-y-4 flex-1">
                     <div className="flex text-yellow-400">
                       {[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-current" />)}

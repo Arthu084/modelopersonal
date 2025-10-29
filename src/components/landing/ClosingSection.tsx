@@ -2,16 +2,16 @@ import { Button } from "@/components/ui/button";
 
 const ClosingSection = () => {
   return (
-    <section className="w-full bg-black py-20 lg:py-28">
+    <section className="w-full bg-secondary py-20 lg:py-28">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-8">
         <div className="space-y-6 animate-on-scroll">
-          <p className="text-2xl md:text-3xl font-light text-white leading-relaxed">
+          <p className="text-2xl md:text-3xl font-light text-foreground leading-relaxed">
             Toda mulher merece se olhar no espelho e se sentir <span className="text-primary font-bold">bem de novo.</span>
           </p>
-          <p className="text-2xl md:text-3xl font-light text-white leading-relaxed">
+          <p className="text-2xl md:text-3xl font-light text-foreground leading-relaxed">
             Não espere a próxima segunda, o próximo mês ou o “tempo certo”.
           </p>
-          <p className="text-4xl md:text-5xl font-headline font-bold text-white">
+          <p className="text-4xl md:text-5xl font-headline font-bold text-foreground">
             O tempo é <span className="text-primary">agora.</span>
           </p>
           <p className="text-lg text-muted-foreground">

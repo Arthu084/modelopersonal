@@ -6,11 +6,11 @@ const HeroSection = () => {
   const heroImage = PlaceHolderImages.find(p => p.id === 'hero-image');
 
   return (
-    <section className="w-full bg-black py-20 lg:py-32">
+    <section className="w-full bg-secondary py-20 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col items-start text-left space-y-6 animate-on-scroll">
-            <h1 className="text-4xl md:text-5xl font-headline font-bold text-white leading-tight">
+            <h1 className="text-4xl md:text-5xl font-headline font-bold text-foreground leading-tight">
               💥 Transforme Seu Corpo e Recupere Sua Confiança com o <span className="text-primary">Método S.L.I.M</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">

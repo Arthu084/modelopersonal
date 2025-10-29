@@ -7,7 +7,7 @@ import { PlayCircle } from "lucide-react";
 const ResultsSection = () => {
   const videoThumb = PlaceHolderImages.find(p => p.id === 'testimonial-video-1');
   return (
-    <section id="results" className="w-full bg-card py-20 lg:py-28">
+    <section id="results" className="w-full bg-secondary py-20 lg:py-28">
       <div className="container mx-auto px-4 md:px-6 text-center space-y-16">
         <div className="space-y-4 animate-on-scroll">
           <h2 className="text-4xl md:text-5xl font-headline font-bold">

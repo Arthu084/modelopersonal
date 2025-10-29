@@ -26,7 +26,7 @@ const faqs = [
 
 const FaqSection = () => {
   return (
-    <section id="faq" className="w-full bg-card py-20 lg:py-28">
+    <section id="faq" className="w-full bg-background py-20 lg:py-28">
       <div className="container mx-auto px-4 md:px-6 max-w-3xl mx-auto space-y-12">
         <div className="text-center space-y-4 animate-on-scroll">
           <h2 className="text-4xl md:text-5xl font-headline font-bold">
@@ -37,7 +37,7 @@ const FaqSection = () => {
         <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
           <Accordion type="single" collapsible className="w-full space-y-4">
             {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="bg-background border border-primary/20 rounded-lg overflow-hidden">
+              <AccordionItem key={index} value={`item-${index}`} className="bg-card border rounded-lg overflow-hidden">
                 <AccordionTrigger className="text-left font-bold text-lg p-6 hover:no-underline">
                   {faq.question}
                 </AccordionTrigger>

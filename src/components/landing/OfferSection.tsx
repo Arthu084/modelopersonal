@@ -10,7 +10,7 @@ const OfferSection = () => {
   ];
 
   return (
-    <section className="w-full bg-black py-20 lg:py-28">
+    <section className="w-full bg-secondary py-20 lg:py-28">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-4xl mx-auto space-y-12">
         <div className="space-y-4 animate-on-scroll">
           <h2 className="text-4xl md:text-5xl font-headline font-bold">
@@ -21,8 +21,8 @@ const OfferSection = () => {
           </p>
         </div>
 
-        <div className="bg-card p-8 rounded-2xl shadow-2xl shadow-primary/10 border border-primary/20 animate-on-scroll" style={{ animationDelay: '0.1s' }}>
-          <h3 className="text-3xl font-headline mb-6 text-white">📦 Você recebe:</h3>
+        <div className="bg-card p-8 rounded-2xl shadow-2xl shadow-primary/10 border border-border animate-on-scroll" style={{ animationDelay: '0.1s' }}>
+          <h3 className="text-3xl font-headline mb-6 text-foreground">📦 Você recebe:</h3>
           <ul className="space-y-4 text-left max-w-md mx-auto">
             {features.map((feature, index) => (
               <li key={index} className="flex items-center gap-3">
