@@ -11,10 +11,10 @@ const OfferSection = () => {
 
   return (
     <section className="w-full bg-secondary py-12">
-      <div className="container mx-auto px-4 md:px-6 text-center max-w-4xl mx-auto space-y-8">
+      <div className="container mx-auto px-4 md:px-6 text-center max-w-4xl mx-auto space-y-6">
         <div className="space-y-4 animate-on-scroll">
           <h2 className="text-3xl md:text-4xl font-headline font-bold">
-            Vagas Abertas para o Acompanhamento Individual do <span className="text-primary">Método S.L.I.M</span>
+            Vagas Abertas para o Acompanhamento Individual do Método S.L.I.M
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground">
             Estou abrindo novas vagas para minha consultoria personalizada (online e presencial em Natal/RN). Cada aluna recebe acompanhamento direto comigo — por isso, as vagas são limitadas.
@@ -34,9 +34,9 @@ const OfferSection = () => {
         </div>
         
         <div className="animate-on-scroll" style={{ animationDelay: '0.2s' }}>
-          <Button asChild size="lg" className="rounded-lg text-xl px-10 py-8 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105">
+          <Button asChild size="lg" className="w-full max-w-md mx-auto rounded-lg text-xl px-10 py-8 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105">
             <a href="https://wa.me/?text=Quero%20fazer%20parte%20do%20S.L.I.M%20agora!" target="_blank" rel="noopener noreferrer">
-              Quero fazer parte do S.L.I.M agora!
+              QUERO ENTRAR PARA O TIME
             </a>
           </Button>
         </div>
