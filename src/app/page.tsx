@@ -6,7 +6,6 @@ import WhatsAppButton from '@/components/landing/WhatsAppButton';
 import Footer from '@/components/landing/Footer';
 import ResultsSection from '@/components/landing/ResultsSection';
 import MethodSection from '@/components/landing/MethodSection';
-import ClosingSection from '@/components/landing/ClosingSection';
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
         <ResultsSection />
         <MethodSection />
         <OfferSection />
-        <ClosingSection />
         <FaqSection />
       </main>
       <WhatsAppButton />
