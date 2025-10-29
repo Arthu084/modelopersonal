@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'S.L.I.M Method Transformation',
-  description: 'Transforme Seu Corpo e Recupere Sua Confiança com o Método S.L.I.M',
+  title: 'Método Dutra Transformation',
+  description: 'Transforme Seu Corpo e Recupere Sua Confiança com o Método Dutra',
 };
 
 export default function RootLayout({

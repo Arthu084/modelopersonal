@@ -29,7 +29,7 @@ const EmpathySection = () => {
                 </blockquote>
                 <div>
                   <p className="font-bold text-lg text-card-foreground">Ricardo Dutra</p>
-                  <p className="text-sm text-muted-foreground">Criador do Método S.L.I.M</p>
+                  <p className="text-sm text-muted-foreground">Criador do Método Dutra</p>
                 </div>
               </div>
             </CardContent>

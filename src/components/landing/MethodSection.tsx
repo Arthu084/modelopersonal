@@ -14,7 +14,7 @@ const MethodCard = ({ icon: Icon, title, description, delay }: MethodCardProps) 
     <Card className="bg-card border-border h-full text-center hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transition-all duration-300 rounded-2xl">
       <CardHeader className="items-center p-4">
         <div className="bg-primary/10 p-3 rounded-full mb-2">
-          <Icon className="w-8 h-8 text-primary" />
+          <Icon className="w-10 h-10 text-primary" />
         </div>
         <CardTitle className="font-headline text-xl">{title}</CardTitle>
       </CardHeader>
@@ -34,11 +34,11 @@ const MethodSection = () => {
   ];
 
   return (
-    <section id="method" className="w-full bg-background pt-16 lg:pt-20">
+    <section id="method" className="w-full bg-background pt-20 lg:pt-24">
       <div className="container mx-auto px-4 md:px-6 text-center space-y-8">
         <div className="space-y-4 animate-on-scroll">
           <h2 className="text-3xl md:text-4xl font-headline font-bold">
-            O que faz o Método <br /> S.L.I.M funcionar
+            O que faz o Método <br /> Dutra funcionar
           </h2>
         </div>
 

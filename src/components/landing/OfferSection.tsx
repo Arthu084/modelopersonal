@@ -10,12 +10,12 @@ const OfferSection = () => {
   ];
 
   return (
-    <section id="offer" className="w-full bg-secondary pb-16 lg:pb-20">
+    <section id="offer" className="w-full bg-secondary py-0 lg:py-0">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-12">
 
         <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
           <div className="bg-card text-card-foreground p-8 md:p-10 rounded-2xl shadow-2xl border border-border/50">
-            <h3 className="text-3xl font-headline mb-8 font-bold text-primary">Ao entrar para o time S.L.I.M, você garante:</h3>
+            <h3 className="text-3xl font-headline mb-8 font-bold text-primary">Ao entrar para o time Dutra, você garante:</h3>
             <ul className="space-y-6 text-left max-w-lg mx-auto">
               {features.map((feature, index) => (
                 <li key={index} className="flex items-start gap-4">
@@ -31,7 +31,7 @@ const OfferSection = () => {
         
         <div className="animate-on-scroll" style={{ animationDelay: '0.2s' }}>
           <Button asChild size="lg" className="w-full max-w-md mx-auto rounded-lg text-xl px-10 py-8 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105">
-            <a href="https://wa.me/?text=Quero%20fazer%20parte%20do%20S.L.I.M%20agora!" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/?text=Quero%20fazer%20parte%20do%20Método%20Dutra%20agora!" target="_blank" rel="noopener noreferrer">
               QUERO ENTRAR PARA O TIME
             </a>
           </Button>
