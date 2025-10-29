@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { PlayCircle } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -15,6 +16,16 @@ const HeroSection = () => {
               🔗 Comece sua consultoria agora
             </p>
           </div>
+
+          <div className="w-full max-w-xs mx-auto">
+            <div className="aspect-[9/16] bg-muted rounded-2xl flex items-center justify-center border-2 border-dashed border-primary/50 relative overflow-hidden shadow-lg">
+              <div className="text-center text-primary/80">
+                <PlayCircle className="w-16 h-16 mx-auto" />
+                <p className="mt-2 font-semibold">Assista ao vídeo</p>
+              </div>
+            </div>
+          </div>
+          
           <Button asChild size="lg" className="rounded-lg text-lg px-8 py-6 shadow-lg shadow-primary/40 hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105 w-full max-w-md mx-auto">
             <a href="https://wa.me/?text=Quero%20fazer%20parte%20do%20S.L.I.M%20agora!" target="_blank" rel="noopener noreferrer">
               QUERO ENTRAR PARA O TIME
