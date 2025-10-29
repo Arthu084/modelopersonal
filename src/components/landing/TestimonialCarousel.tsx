@@ -1,6 +1,5 @@
 "use client";
 
-import Image from 'next/image';
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -9,24 +8,20 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Star } from "lucide-react";
 
 type Testimonial = {
   quote: string;
   name: string;
-  imageId: string;
 };
 
 const testimonials: Testimonial[] = [
-  { quote: "Voltei a usar minhas roupas antigas em 3 semanas!", name: "Ana P.", imageId: "testimonial-1-after" },
-  { quote: "Nunca pensei que conseguiria resultados treinando tão pouco tempo. O método é incrível!", name: "Bruna C.", imageId: "testimonial-2-after" },
-  { quote: "A orientação do Victor fez toda a diferença. Me sinto mais confiante e motivada!", name: "Lúcia M.", imageId: "testimonial-3-after" },
-  { quote: "Perdi a barriga que me incomodava e ganhei uma definição que amo. Super recomendo!", name: "Carla S.", imageId: "testimonial-4-after" },
-  { quote: "Finalmente um plano que se encaixa na minha rotina de mãe e profissional. Estou amando!", name: "Sofia R.", imageId: "testimonial-5-after" },
+  { quote: "Voltei a usar minhas roupas antigas em 3 semanas!", name: "Ana P." },
+  { quote: "Nunca pensei que conseguiria resultados treinando tão pouco tempo. O método é incrível!", name: "Bruna C." },
+  { quote: "A orientação do Victor fez toda a diferença. Me sinto mais confiante e motivada!", name: "Lúcia M." },
+  { quote: "Perdi a barriga que me incomodava e ganhei uma definição que amo. Super recomendo!", name: "Carla S." },
+  { quote: "Finalmente um plano que se encaixa na minha rotina de mãe e profissional. Estou amando!", name: "Sofia R." },
 ];
-
-const getImage = (id: string) => PlaceHolderImages.find(p => p.id === id);
 
 export function TestimonialCarousel() {
   return (
@@ -38,24 +33,16 @@ export function TestimonialCarousel() {
     >
       <CarouselContent>
         {testimonials.map((testimonial, index) => {
-          const image = getImage(testimonial.imageId);
           return (
             <CarouselItem key={index}>
               <div className="p-1 h-full">
-                <Card className="bg-card border-border h-full flex flex-col shadow-xl rounded-2xl">
+                <Card className="bg-card border-none h-full flex flex-col shadow-2xl rounded-2xl">
                   <CardContent className="p-8 flex flex-col items-center justify-start text-center space-y-4 flex-1">
-                    {image && (
-                      <div className="flex-shrink-0 flex justify-center mb-2">
-                        <Image
-                          src={image.imageUrl}
-                          alt={image.description}
-                          width={150}
-                          height={150}
-                          className="rounded-full object-cover border-4 border-primary shadow-lg"
-                          data-ai-hint={image.imageHint}
-                        />
+                    <div className="flex-shrink-0 flex justify-center mb-2">
+                      <div className="w-[150px] h-[150px] rounded-full bg-muted border-4 border-primary shadow-lg flex items-center justify-center">
+                        {/* Placeholder for image */}
                       </div>
-                    )}
+                    </div>
                     <div className="flex text-yellow-400">
                       {[...Array(5)].map((_, i) => <Star key={i} className="w-6 h-6 fill-current" />)}
                     </div>
