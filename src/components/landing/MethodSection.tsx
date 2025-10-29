@@ -13,14 +13,14 @@ interface MethodCardProps {
 const MethodCard = ({ icon: Icon, title, description, delay }: MethodCardProps) => (
   <div className="animate-on-scroll" style={{ animationDelay: delay }}>
     <Card className="bg-card border-border h-full text-center hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transition-all duration-300">
-      <CardHeader className="items-center">
-        <div className="bg-primary/10 p-4 rounded-full mb-4">
-          <Icon className="w-8 h-8 text-primary" />
+      <CardHeader className="items-center p-4">
+        <div className="bg-primary/10 p-3 rounded-full mb-2">
+          <Icon className="w-7 h-7 text-primary" />
         </div>
-        <CardTitle className="font-headline text-2xl">{title}</CardTitle>
+        <CardTitle className="font-headline text-xl">{title}</CardTitle>
       </CardHeader>
-      <CardContent>
-        <p className="text-muted-foreground">{description}</p>
+      <CardContent className="p-4 pt-0">
+        <p className="text-muted-foreground text-sm">{description}</p>
       </CardContent>
     </Card>
   </div>
@@ -35,17 +35,14 @@ const MethodSection = () => {
 
   return (
     <section id="method" className="w-full bg-background py-12">
-      <div className="container mx-auto px-4 md:px-6 text-center space-y-12">
+      <div className="container mx-auto px-4 md:px-6 text-center space-y-8">
         <div className="space-y-4 animate-on-scroll">
           <h2 className="text-3xl md:text-4xl font-headline font-bold">
             Entenda o que faz o Método S.L.I.M funcionar
           </h2>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-            O S.L.I.M (Sistema de Liberação Inteligente de Metabolismo) é um protocolo criado para mulheres reais — com pouco tempo, mas muita vontade de mudar.
-          </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-6">
           {methods.map((method, index) => (
             <MethodCard key={method.title} {...method} delay={`${index * 0.1}s`} />
           ))}
