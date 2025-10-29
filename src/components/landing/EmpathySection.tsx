@@ -28,7 +28,7 @@ const EmpathySection = () => {
                   “Eu sei como é olhar no espelho e <span className="font-bold text-primary">não se reconhecer mais</span>. Com o método certo, é totalmente possível transformar seu corpo e sua autoestima com o tempo que você tem.”
                 </blockquote>
                 <div>
-                  <p className="font-bold text-lg text-card-foreground">Victor Pablo</p>
+                  <p className="font-bold text-lg text-card-foreground">Ricardo Dutra</p>
                   <p className="text-sm text-muted-foreground">Criador do Método S.L.I.M</p>
                 </div>
               </div>

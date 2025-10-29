@@ -19,7 +19,7 @@ const faqs = [
     answer: "De 2 a 4 semanas já dá pra ver diferença no espelho e na roupa. Resultados mais expressivos aparecem com a consistência ao longo dos primeiros 3 meses."
   },
   {
-    question: "Tem acompanhamento do Victor?",
+    question: "Tem acompanhamento do Ricardo?",
     answer: "Sim. O grande diferencial do método é o meu acompanhamento direto. Você terá contato comigo via WhatsApp para tirar dúvidas, ajustar o treino e garantir que você esteja sempre evoluindo."
   }
 ];
