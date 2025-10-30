@@ -1,5 +1,28 @@
 import { Button } from "@/components/ui/button";
-import { CirclePlay, PlayCircle } from "lucide-react";
+import { PlayCircle } from "lucide-react";
+
+const PointingDownHand = () => (
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    width="24" 
+    height="24" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round" 
+    className="w-5 h-5 text-primary"
+  >
+    <path d="M9 11.5L12.5 15L16 11.5"/>
+    <path d="M6 8.5a2.5 2.5 0 0 1 5 0V12"/>
+    <path d="M13 8.5a2.5 2.5 0 0 1 5 0V12"/>
+    <path d="M2 12h2.5"/>
+    <path d="M19.5 12H22"/>
+    <path d="M12 15V2.5a2.5 2.5 0 0 1 5 0V8"/>
+    <path d="M9 11.5V6.5a2.5 2.5 0 0 1 5 0V8"/>
+  </svg>
+);
 
 const HeroSection = () => {
   return (
@@ -9,8 +32,8 @@ const HeroSection = () => {
           <h1 className="text-2xl font-headline font-bold text-foreground leading-tight max-w-3xl">
             O método que já ajudou centenas de mulheres a alcançarem o corpo desjado - mesmo com a rotina apertada!
           </h1>
-          <p className="mt-2 flex items-center gap-2 text-muted-foreground text-lg md:text-xl font-bold">
-            <CirclePlay className="w-5 h-5 text-primary" />
+          <p className="mt-2 flex items-center gap-2 text-muted-foreground text-lg md:text-xl">
+            <PointingDownHand />
             Assista ao vídeo e entenda:
           </p>
           <div className="w-full max-w-xs mx-auto">
