@@ -30,7 +30,7 @@ const OfferSection = () => {
         </div>
         
         <div className="animate-on-scroll pt-2" style={{ animationDelay: '0.2s' }}>
-          <Button asChild size="lg" className="w-full max-w-md mx-auto rounded-lg text-xl font-bold px-10 py-8 shadow-lg btn-shine transition-all duration-300 transform hover:scale-105 animate-pulse-glow">
+          <Button asChild size="lg" className="w-full max-w-md mx-auto rounded-lg text-xl font-bold px-10 py-8 shadow-lg btn-shine transition-all duration-300 transform hover:scale-105">
             <a href="https://wa.me/?text=Quero%20fazer%20parte%20do%20Método%20Dutra%20agora!" target="_blank" rel="noopener noreferrer">
               QUERO ENTRAR PARA O TIME
             </a>
