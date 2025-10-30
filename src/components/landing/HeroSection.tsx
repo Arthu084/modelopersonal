@@ -49,12 +49,12 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="inline-block text-left space-y-2">
-            <div className="flex items-center gap-2 text-lg text-muted-foreground font-bold">
-              <CheckCircle2 className="w-6 h-6 text-primary" />
+            <div className="flex items-center gap-2 text-base text-muted-foreground font-bold">
+              <CheckCircle2 className="w-5 h-5 text-primary" />
               <span>Resultados reais. Treinos rápidos.</span>
             </div>
-            <div className="flex items-center gap-2 text-lg text-muted-foreground font-bold">
-              <Link className="w-6 h-6 text-primary" />
+            <div className="flex items-center gap-2 text-base text-muted-foreground font-bold">
+              <Link className="w-5 h-5 text-primary" />
               <span>Comece sua consultoria agora</span>
             </div>
           </div>
