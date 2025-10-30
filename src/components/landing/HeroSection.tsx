@@ -11,7 +11,7 @@ const PointingFinger = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="w-6 h-6 text-primary transform scale-x-[-1]"
+    className="w-6 h-6 text-primary"
   >
     <path d="M18 8L22 12L18 16" />
     <path d="M2 12H22" />
