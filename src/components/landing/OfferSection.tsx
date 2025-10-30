@@ -14,12 +14,12 @@ const OfferSection = () => {
   const victorImage = PlaceHolderImages.find(p => p.id === 'empathy-image');
 
   return (
-    <section id="offer" className="w-full bg-card pt-4">
+    <section id="offer" className="w-full bg-card pt-4 pb-12">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-4">
 
         <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
           <div className="bg-background text-card-foreground p-8 md:p-10 rounded-2xl shadow-2xl border border-border/50">
-            <h3 className="text-3xl font-headline mb-8 font-bold text-foreground">Ao entrar para o time Dutra, você garante:</h3>
+            <h3 className="text-2xl md:text-3xl font-headline mb-8 font-bold text-foreground">Ao entrar para o time Dutra, você garante:</h3>
             <ul className="space-y-6 text-left max-w-lg mx-auto">
               {features.map((feature, index) => (
                 <li key={index} className="flex items-start gap-4">
