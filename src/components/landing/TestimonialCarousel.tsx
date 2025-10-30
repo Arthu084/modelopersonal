@@ -64,8 +64,8 @@ export function TestimonialCarousel() {
               <CarouselItem key={index}>
                 <div className="p-1 h-full">
                   <Card className="bg-background border-none h-full flex flex-col shadow-2xl rounded-3xl">
-                    <CardContent className="p-8 flex flex-col items-center justify-start text-center space-y-4 flex-1">
-                      <div className="flex-shrink-0 flex justify-center mb-4">
+                    <CardContent className="p-6 flex flex-col items-center justify-start text-center space-y-2 flex-1">
+                      <div className="flex-shrink-0 flex justify-center mb-2">
                         <Image
                           src={testimonial.imageUrl}
                           alt={`Depoimento de ${testimonial.name}`}
@@ -80,7 +80,7 @@ export function TestimonialCarousel() {
                           <Star key={i} className="w-6 h-6 fill-current" />
                         ))}
                       </div>
-                      <p className="font-bold text-foreground text-lg pt-2">
+                      <p className="font-bold text-foreground text-lg">
                         - {testimonial.name}
                       </p>
                       <blockquote className="text-xl font-medium italic leading-snug flex-grow">
