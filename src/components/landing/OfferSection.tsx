@@ -1,7 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Dumbbell, UtensilsCrossed, MessageSquare, Target } from "lucide-react";
-import Image from "next/image";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const OfferSection = () => {
   const features = [
@@ -11,10 +9,8 @@ const OfferSection = () => {
     { text: "Monitoramento semanal dos resultados para garantir sua evolução contínua.", icon: Target },
   ];
   
-  const victorImage = PlaceHolderImages.find(p => p.id === 'empathy-image');
-
   return (
-    <section id="offer" className="w-full bg-card pt-4 pb-4">
+    <section id="offer" className="w-full bg-card pt-4 pb-0">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-4">
 
         <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
@@ -30,32 +26,6 @@ const OfferSection = () => {
                 </li>
               ))}
             </ul>
-          </div>
-        </div>
-
-        <div className="animate-on-scroll" style={{ animationDelay: '0.15s' }}>
-          <div className="bg-background text-card-foreground p-8 md:p-10 rounded-2xl shadow-2xl border border-border/50">
-              {victorImage && (
-                <div className="flex-shrink-0 flex justify-center mb-4">
-                  <Image
-                    src={victorImage.imageUrl}
-                    alt={victorImage.description}
-                    width={100}
-                    height={100}
-                    className="rounded-full object-cover border-[6px] border-primary shadow-lg"
-                    data-ai-hint={victorImage.imageHint}
-                  />
-                </div>
-              )}
-              <div className="space-y-2">
-                <blockquote className="text-lg md:text-xl font-light leading-relaxed text-foreground">
-                  “Eu sei como é olhar no espelho e <span className="font-bold text-black">não se reconhecer mais</span>. Com o método certo, é totalmente possível transformar seu corpo e sua autoestima com o tempo que você tem.”
-                </blockquote>
-                <div>
-                  <p className="font-bold text-lg text-foreground">Ricardo Dutra</p>
-                  <p className="text-sm text-muted-foreground">Criador do Método Dutra</p>
-                </div>
-              </div>
           </div>
         </div>
         
