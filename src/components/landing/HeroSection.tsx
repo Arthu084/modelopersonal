@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { CheckCircle2, Link } from "lucide-react";
 
 const PointingFinger = () => (
   <svg
@@ -13,8 +14,8 @@ const PointingFinger = () => (
     strokeLinejoin="round"
     className="w-6 h-6 text-primary"
   >
-    <path d="M18 8L22 12L18 16" />
-    <path d="M2 12H22" />
+    <path d="M22 12H2" />
+    <path d="M16 6l6 6-6 6" />
   </svg>
 );
 
@@ -47,12 +48,15 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="inline-block text-left">
-            <p className="text-lg text-muted-foreground font-bold">
-              ✅ Resultados reais. Treinos rápidos.
-              <br />
-              🔗 Comece sua consultoria agora
-            </p>
+          <div className="inline-block text-left space-y-2">
+            <div className="flex items-center gap-2 text-lg text-muted-foreground font-bold">
+              <CheckCircle2 className="w-6 h-6 text-primary" />
+              <span>Resultados reais. Treinos rápidos.</span>
+            </div>
+            <div className="flex items-center gap-2 text-lg text-muted-foreground font-bold">
+              <Link className="w-6 h-6 text-primary" />
+              <span>Comece sua consultoria agora</span>
+            </div>
           </div>
           
           <Button asChild size="lg" className="w-full max-w-md mx-auto rounded-lg text-xl font-bold px-10 py-8 shadow-lg btn-shine transition-all duration-300 transform hover:scale-105">
