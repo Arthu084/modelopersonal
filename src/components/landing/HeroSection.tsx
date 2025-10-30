@@ -15,14 +15,18 @@ const HeroSection = () => {
             <div className="bg-card text-card-foreground p-8 md:p-10 rounded-2xl shadow-2xl border border-border/50">
                 {victorImage && (
                   <div className="flex-shrink-0 flex justify-center mb-4">
-                    <Image
-                      src={victorImage.imageUrl}
-                      alt={victorImage.description}
-                      width={100}
-                      height={100}
-                      className="rounded-full object-cover border-[6px] border-primary shadow-lg"
-                      data-ai-hint={victorImage.imageHint}
-                    />
+                    <div className="text-center">
+                      <Image
+                        src={victorImage.imageUrl}
+                        alt={victorImage.description}
+                        width={100}
+                        height={100}
+                        className="rounded-full object-cover border-[6px] border-primary shadow-lg mx-auto"
+                        data-ai-hint={victorImage.imageHint}
+                      />
+                      <p className="font-bold text-lg text-foreground mt-2">Ricardo Dutra</p>
+                      <p className="text-sm text-muted-foreground">CREF: 000000-G/SP</p>
+                    </div>
                   </div>
                 )}
                 <div className="space-y-2">
@@ -30,7 +34,6 @@ const HeroSection = () => {
                     “Eu sei como é olhar no espelho e <span className="font-bold text-black">não se reconhecer mais</span>. Com o método certo, é totalmente possível transformar seu corpo e sua autoestima com o tempo que você tem.”
                   </blockquote>
                   <div>
-                    <p className="font-bold text-lg text-foreground">Ricardo Dutra</p>
                     <p className="text-sm text-muted-foreground">Criador do Método Dutra</p>
                   </div>
                 </div>
