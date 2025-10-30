@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="flex flex-col items-center text-center space-y-6 animate-on-scroll">
           
           <div className="animate-on-scroll" style={{ animationDelay: '0.15s' }}>
-            <div className="bg-card text-card-foreground p-8 md:p-10 rounded-2xl shadow-2xl border border-border/50">
+            <div className="bg-card text-card-foreground p-8 md:p-10 rounded-2xl shadow-lg border border-border/50">
                 {victorImage && (
                   <div className="flex-shrink-0 flex justify-center mb-4">
                     <div className="text-center">
@@ -26,6 +26,7 @@ const HeroSection = () => {
                       />
                       <p className="font-bold text-lg text-foreground mt-2">Ricardo Dutra</p>
                       <p className="text-sm text-muted-foreground">CREF: 000000-G/SP</p>
+                      <p className="text-sm text-muted-foreground">Criador do Método Dutra</p>
                     </div>
                   </div>
                 )}
@@ -33,9 +34,6 @@ const HeroSection = () => {
                   <blockquote className="text-lg md:text-xl font-light leading-relaxed text-foreground">
                     “Eu sei como é olhar no espelho e <span className="font-bold text-black">não se reconhecer mais</span>. Com o método certo, é totalmente possível transformar seu corpo e sua autoestima com o tempo que você tem.”
                   </blockquote>
-                  <div>
-                    <p className="text-sm text-muted-foreground">Criador do Método Dutra</p>
-                  </div>
                 </div>
             </div>
           </div>
