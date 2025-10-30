@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-const PointingDownHand = () => (
+const PointingFinger = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -11,13 +11,10 @@ const PointingDownHand = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="w-6 h-6 text-primary"
+    className="w-6 h-6 text-primary transform scale-x-[-1]"
   >
-    <path d="M15 14l-3 3-3-3" />
-    <path d="M12 17V5.5" />
-    <path d="M5 8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
-    <path d="M19 8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
-    <path d="M5 12.5V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7.5" />
+    <path d="M18 8L22 12L18 16" />
+    <path d="M2 12H22" />
   </svg>
 );
 
@@ -31,7 +28,7 @@ const HeroSection = () => {
             O método que já ajudou centenas de mulheres a alcançarem o corpo desjado - mesmo com a rotina apertada!
           </h1>
           <p className="mt-2 flex items-center gap-2 text-muted-foreground text-lg">
-            <PointingDownHand />
+            <PointingFinger />
             Assista ao vídeo e entenda:
           </p>
           <div className="w-full max-w-xs mx-auto">
