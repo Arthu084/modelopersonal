@@ -14,7 +14,7 @@ const OfferSection = () => {
       <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-2">
 
         <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
-          <div className="bg-card text-card-foreground p-4 md:p-6 rounded-2xl shadow-2xl border border-border/50">
+          <div className="bg-card text-card-foreground p-6 md:p-8 rounded-2xl shadow-2xl border border-border/50">
             <h3 className="text-2xl font-headline mb-1 font-bold text-foreground">Ao entrar para o time Dutra, você garante:</h3>
             <ul className="space-y-1 text-left max-w-lg mx-auto">
               {features.map((feature, index) => (
