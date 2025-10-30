@@ -9,14 +9,6 @@ const HeroSection = () => {
           <h1 className="text-3xl md:text-4xl font-headline font-bold text-foreground leading-tight max-w-3xl">
             Ajudando mulheres sem tempo a conquistarem um corpo definido e elegante com o Método Dutra.
           </h1>
-          <div className="inline-block text-left">
-            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-              ✅ Resultados reais. Treinos rápidos.
-              <br />
-              🔗 Comece sua consultoria agora
-            </p>
-          </div>
-
           <div className="w-full max-w-xs mx-auto">
             <div className="aspect-[9/16] bg-muted rounded-2xl flex items-center justify-center border-2 border-dashed border-primary/50 relative overflow-hidden shadow-lg">
               <div className="text-center text-primary/80">
@@ -24,6 +16,13 @@ const HeroSection = () => {
                 <p className="mt-2 font-semibold">Assista ao vídeo</p>
               </div>
             </div>
+          </div>
+          <div className="inline-block text-left">
+            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl font-bold">
+              ✅ Resultados reais. Treinos rápidos.
+              <br />
+              🔗 Comece sua consultoria agora
+            </p>
           </div>
           
           <Button asChild size="lg" className="w-full max-w-md mx-auto rounded-lg text-xl font-bold px-10 py-8 shadow-lg btn-shine transition-all duration-300 transform hover:scale-105">
