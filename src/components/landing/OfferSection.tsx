@@ -26,7 +26,7 @@ const OfferSection = () => {
                   <div className="bg-primary/10 p-2 rounded-full mt-1">
                     <feature.icon className="w-6 h-6 text-primary flex-shrink-0" />
                   </div>
-                  <span className="text-lg md:text-xl text-foreground">{feature.text}</span>
+                  <span className="text-lg md:text-xl font-light text-foreground">{feature.text}</span>
                 </li>
               ))}
             </ul>
