@@ -14,8 +14,8 @@ const PointingFinger = () => (
     strokeLinejoin="round"
     className="w-6 h-6 text-primary"
   >
-    <path d="M22 12H2" />
-    <path d="M16 6l6 6-6 6" />
+    <path d="M2 12h20" />
+    <path d="m18 16 4-4-4-4" />
   </svg>
 );
 
@@ -55,7 +55,7 @@ const HeroSection = () => {
             </div>
             <div className="flex items-center gap-2 text-base text-muted-foreground font-bold">
               <Link className="w-5 h-5 text-primary" />
-              <span>Comece sua consultoria agora</span>
+              <span>Comece sua Transformação Agora</span>
             </div>
           </div>
           
