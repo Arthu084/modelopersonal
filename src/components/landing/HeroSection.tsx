@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { PlayCircle } from "lucide-react";
+import { CirclePlay, PlayCircle } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -9,8 +9,8 @@ const HeroSection = () => {
           <h1 className="text-2xl font-headline font-bold text-foreground leading-tight max-w-3xl">
             O método que já ajudou centenas de mulheres a alcançarem o corpo desjado - mesmo com a rotina apertada!
           </h1>
-          <p className="mt-2 font-semibold flex items-center gap-2 text-primary">
-            <PlayCircle className="w-5 h-5" />
+          <p className="mt-2 font-semibold flex items-center gap-2 text-primary text-2xl">
+            <CirclePlay className="w-5 h-5" />
             Assista ao vídeo e entenda:
           </p>
           <div className="w-full max-w-xs mx-auto">
