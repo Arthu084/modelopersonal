@@ -10,11 +10,11 @@ const OfferSection = () => {
   ];
   
   return (
-    <section id="offer" className="w-full bg-card pt-4 pb-0">
+    <section id="offer" className="w-full bg-background pt-0 pb-0">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl mx-auto space-y-4">
 
         <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
-          <div className="bg-background text-card-foreground p-8 md:p-10 rounded-2xl shadow-2xl border border-border/50">
+          <div className="bg-card text-card-foreground p-8 md:p-10 rounded-2xl shadow-2xl border border-border/50">
             <h3 className="text-2xl font-headline mb-8 font-bold text-foreground">Ao entrar para o time Dutra, você garante:</h3>
             <ul className="space-y-6 text-left max-w-lg mx-auto">
               {features.map((feature, index) => (
