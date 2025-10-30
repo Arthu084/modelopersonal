@@ -42,7 +42,7 @@ const MethodSection = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
           {methods.map((method, index) => (
             <MethodCard key={method.title} {...method} delay={`${index * 0.1}s`} />
           ))}
