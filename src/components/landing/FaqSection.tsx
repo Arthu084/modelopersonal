@@ -26,7 +26,7 @@ const faqs = [
 
 const FaqSection = () => {
   return (
-    <section id="faq" className="w-full bg-background py-16 lg:py-20">
+    <section id="faq" className="w-full bg-background pt-16 lg:pt-20 pb-16 lg:pb-20">
       <div className="container mx-auto px-4 md:px-6 max-w-3xl mx-auto space-y-4">
         <div className="text-center space-y-4 animate-on-scroll">
           <h2 className="text-2xl md:text-3xl font-headline font-bold text-foreground">
