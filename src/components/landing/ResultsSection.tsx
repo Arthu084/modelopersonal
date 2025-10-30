@@ -13,7 +13,7 @@ const ResultsSection = () => {
           </p>
         </div>
 
-        <div className="animate-on-scroll" style={{ animationDelay: '0.1s' }}>
+        <div className="animate-on-scroll pt-4" style={{ animationDelay: '0.1s' }}>
           <TestimonialCarousel />
         </div>
       </div>
