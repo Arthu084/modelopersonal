@@ -27,7 +27,7 @@ const HeroSection = () => {
           <h1 className="text-2xl font-headline font-bold text-foreground leading-tight max-w-3xl">
             O método que já ajudou centenas de mulheres a alcançarem o corpo desjado - mesmo com a rotina apertada!
           </h1>
-          <p className="mt-2 flex items-center gap-2 text-muted-foreground text-lg">
+          <p className="mt-2 flex items-center gap-2 text-muted-foreground text-lg font-bold">
             <PointingFinger />
             Assista ao vídeo e entenda:
           </p>
