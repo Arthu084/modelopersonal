@@ -1,28 +1,26 @@
 import { Button } from "@/components/ui/button";
-import { PlayCircle } from "lucide-react";
 
 const PointingDownHand = () => (
-  <svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    width="24" 
-    height="24" 
-    viewBox="0 0 24 24" 
-    fill="none" 
-    stroke="currentColor" 
-    strokeWidth="2" 
-    strokeLinecap="round" 
-    strokeLinejoin="round" 
-    className="w-5 h-5 text-primary"
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-6 h-6 text-primary"
   >
-    <path d="M9 11.5L12.5 15L16 11.5"/>
-    <path d="M6 8.5a2.5 2.5 0 0 1 5 0V12"/>
-    <path d="M13 8.5a2.5 2.5 0 0 1 5 0V12"/>
-    <path d="M2 12h2.5"/>
-    <path d="M19.5 12H22"/>
-    <path d="M12 15V2.5a2.5 2.5 0 0 1 5 0V8"/>
-    <path d="M9 11.5V6.5a2.5 2.5 0 0 1 5 0V8"/>
+    <path d="M15 14l-3 3-3-3" />
+    <path d="M12 17V5.5" />
+    <path d="M5 8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+    <path d="M19 8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+    <path d="M5 12.5V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7.5" />
   </svg>
 );
+
 
 const HeroSection = () => {
   return (
@@ -32,19 +30,28 @@ const HeroSection = () => {
           <h1 className="text-2xl font-headline font-bold text-foreground leading-tight max-w-3xl">
             O método que já ajudou centenas de mulheres a alcançarem o corpo desjado - mesmo com a rotina apertada!
           </h1>
-          <p className="mt-2 flex items-center gap-2 text-muted-foreground text-lg md:text-xl">
+          <p className="mt-2 flex items-center gap-2 text-muted-foreground text-lg">
             <PointingDownHand />
             Assista ao vídeo e entenda:
           </p>
           <div className="w-full max-w-xs mx-auto">
             <div className="aspect-[9/16] bg-muted rounded-2xl flex items-center justify-center border-2 border-dashed border-primary/50 relative overflow-hidden shadow-lg">
               <div className="text-center text-primary/80 flex flex-col items-center justify-center">
-                <PlayCircle className="w-16 h-16" />
+                 <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-16 h-16"
+                >
+                  <path d="M7 6v12l10-6z" />
+                </svg>
               </div>
             </div>
           </div>
           <div className="inline-block text-left">
-            <p className="text-lg md:text-xl text-muted-foreground font-bold">
+            <p className="text-lg text-muted-foreground font-bold">
               ✅ Resultados reais. Treinos rápidos.
               <br />
               🔗 Comece sua consultoria agora
