@@ -89,14 +89,14 @@ export default {
           },
         },
         'pulse-glow': {
-          '0%, 100%': { opacity: '1', boxShadow: '0 0 0 0 hsl(var(--primary) / 0.5)' },
-          '50%': { opacity: '0.8', boxShadow: '0 0 0 8px hsl(var(--primary) / 0)' },
+          '0%, 100%': { opacity: '1', boxShadow: '0 0 0 0 hsl(var(--primary) / 0.4)' },
+          '50%': { opacity: '0.9', boxShadow: '0 0 0 6px hsl(var(--primary) / 0)' },
         },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
-        'pulse-glow': 'pulse-glow 5s infinite',
+        'pulse-glow': 'pulse-glow 7s infinite',
       },
     },
   },
